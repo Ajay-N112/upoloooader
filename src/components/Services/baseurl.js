@@ -1,0 +1,1 @@
+ export const baseUrl='https://uploader-server-5e6j.onrender.com'

@@ -1,0 +1,35 @@
+/* Define styles for small screens (up to 768px wide) */
+@media screen and (max-width: 768px) {
+    .custom-table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+    }
+  
+    .custom-table thead {
+      display: none;
+    }
+  
+    .custom-table tbody {
+      display: block;
+    }
+  
+    .custom-table tr {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .custom-table td {
+      padding: 0.5rem;
+      text-align: left;
+      border: none;
+    }
+  }
+  
+  /* Define default styles for larger screens */
+  .custom-table {
+    /* Add any default styles for your table here */
+  }
+  
